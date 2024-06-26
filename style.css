@@ -11,4 +11,5 @@ form{
     flex-direction: column;
     background: beige;
     text-align: center;
+    padding: 20px 25px;
 }
