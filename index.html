@@ -7,46 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <h1 style="text-align:center; color: aliceblue;"> Login </h1>
-<style>
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    .container button {
-        width: 150px;
-        padding: 10px;
-        margin: 5px;
-    }
-</style>
 
 <body >
    <form action="">
     <label>
-         <i class="fa-solid fa-user"></i>";
-         <input type="text" id="Username">;
+         <p>Usuario</p>
+         <input placeholder="Ingrese su usuario", type="text" id="Username">
     </label>
     <label>
-        <i class="fa-solid fa-lock"></i>
-        <input type="password" id="Password"> 
+        <br><p>Contraseña</p>
+        <input placeholder='Ingrese su contraseña', type="password" id="Password"> 
    </label>
-   <a href="#" class="link"> ¿Olvidaste la contraseña? </a> <!--a href indica la direccion del link-->
+   <br><a href="#" class="link"> ¿Olvidaste la contraseña? </a> <!--a href indica la direccion del link-->
    <button id="boton">Login</button>
    </form>
 
