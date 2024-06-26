@@ -17,7 +17,7 @@ body {
 form{
     display: flex;
     flex-direction: column;
-    background: beige;
+    background: rgba(192, 192, 177, 0.808);
     text-align: center;
     padding: 20px 25px;
 }
@@ -27,4 +27,29 @@ form{
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+form .link {
+    color:crimson;
+    margin-bottom: 15px;
+}
+
+form button{
+    color: rgb(15, 15, 15);
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color:rgb(179, 21, 21);
+}
+form .title{
+    color: brown;
+    margin-bottom: 50px;
+    font-style: oblique;
+    font-size: smaller;
+    margin-top: -20px;
+
+}
+
+form label{
+    margin-bottom: 20px;
 }
