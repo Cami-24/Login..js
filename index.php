@@ -9,15 +9,15 @@
 
 <body>
     <div class="container">
-        <form id="loginForm" class="form">
+        <form id="loginForm" class="form" action="php/registro_usuario.php">
             <h1 class="title">Login</h1>
             <label>
                 <p>Username</p>
-                <input placeholder="Username" type="text" id="loginUsername">
+                <input placeholder="Username" type="text" id="loginUsername" name='username'>
             </label>
             <label>
                 <p>Password</p>
-                <input placeholder="Password" type="password" id="loginPassword">
+                <input placeholder="Password" type="password" id="loginPassword" name='password'>
             </label>
             <a href="#" class="link">¿Olvidaste la contraseña?</a>
             <button type="submit">Login</button>
