@@ -8,19 +8,21 @@
 </head>
 
 <body>
-    <form method="post" action="">
-        <h1>Login</h1>
-        <label>
-            <p>Usuario</p>
-            <input placeholder="Username" type="text" id="username"> <!-- Cambié 'Username' a 'username' -->
-        </label>
-        <label>
-            <p>Contraseña</p>
-            <input placeholder="Password" type="password" id="password"> <!-- Cambié 'Password' a 'password' -->
-        </label>
-        <a href="#" class="link">¿Olvidaste la contraseña?</a>
-        <button type="button" id="button">Login</button>
-    </form>
+    <div class="container">
+        <form id="loginForm" class="form">
+            <h1 class="title">Login</h1>
+            <label>
+                <p>Username</p>
+                <input placeholder="Username" type="text" id="loginUsername">
+            </label>
+            <label>
+                <p>Password</p>
+                <input placeholder="Password" type="password" id="loginPassword">
+            </label>
+            <a href="#" class="link">¿Olvidaste la contraseña?</a>
+            <button type="submit">Login</button>
+        </form>
+    </div>
 
     <script src="js/main.js"></script>
 </body>
