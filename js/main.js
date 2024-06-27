@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
     const password = document.getElementById('loginPassword').value;
 
     fetch('/login', { //La función fetch se usa para hacer solicitudes HTTP. En este caso, está realizando una solicitud POST a la URL /login.
-        method: 'POST',
+        method: 'POST', //POST -> envia datos al servidor,  para crear o actualizar recursos.
         headers: {
             'Content-Type': 'application/json'
         },
