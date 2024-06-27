@@ -1,7 +1,7 @@
 <?php
 
 
-    $conexion = mysqui_connect('localhost', 'root', '', 'login_squl');
+    $conexion = mysqli_connect('localhost', 'root', '', 'login_squl');
 
 
 if($conexion){
