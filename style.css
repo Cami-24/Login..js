@@ -1,55 +1,76 @@
-body{
-    background-image: url(naranja.jpg);
+body {
+    background-image: url('naranja.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    font-family: sans-serif;
-}
-body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    background: rgb(255, 255, 254);
-    text-align: center;
-    padding: 20px 25px;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: sans-serif;
 }
 
-form .link {
-    color:crimson;
-    margin-bottom: 15px;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-form button{
-    color: rgb(15, 15, 15);
+.form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 254, 0.9);
+    text-align: center;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: brown;
+    margin-bottom: 20px;
+    font-style: oblique;
+    font-size: larger;
+}
+
+form label {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+form .link {
+    color: crimson;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+form button {
+    color: white;
     border: none;
     cursor: pointer;
     padding: 10px 15px;
-    background-color:rgb(179, 21, 21);
-}
-form .title{
-    color: brown;
-    margin-bottom: 50px;
-    font-style: oblique;
-    font-size: smaller;
-    margin-top: -20px;
-
+    background-color: rgb(179, 21, 21);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-form label{
-    margin-bottom: 20px;
+form button:hover {
+    background-color: rgb(139, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
