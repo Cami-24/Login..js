@@ -9,7 +9,7 @@
 
 <body>
     <div class="container">
-        <form id="loginForm" class="form" action="php/registro_usuario.php">
+        <form id="loginForm" class="form" action="php/registro_usuario.php" method="post">
             <h1 class="title">Login</h1>
             <label>
                 <p>Username</p>
