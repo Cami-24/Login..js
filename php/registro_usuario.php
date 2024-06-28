@@ -10,10 +10,12 @@
     $ejecutar = mysqli_query($conexion, $datos);
 
     if($ejecutar){
-        echo'
-        <script>
-            alert('Usuario agregado');
-        </script>
-        ';
+        echo''
+            <script>
+                alert('Usuario agregado');
+                window.location = '../index.php';
+            </script>
+        '';
+        
     }
 ?>
