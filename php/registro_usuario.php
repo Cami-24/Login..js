@@ -1,5 +1,5 @@
 <?php 
-    include'conexion_bd.php';
+    include('conexion_bd.php');
     
     $username = $_POST['username'];
     $password = $_POST['password'];
